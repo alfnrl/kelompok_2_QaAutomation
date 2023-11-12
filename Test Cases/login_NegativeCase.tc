@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login_NegativeCase</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b05eee65-af60-4069-84f6-efe7637cdc73</testCaseGuid>
+</TestCaseEntity>
