@@ -65,3 +65,5 @@ WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/Page_OrangeHRM/div_SuccessSuccessfully Updated'))
 
+WebUI.closeBrowser()
+
