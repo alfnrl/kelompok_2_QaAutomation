@@ -59,3 +59,5 @@ WebUI.takeScreenshot()
 
 WebUI.click(findTestObject('Add/button_Save'))
 
+WebUI.delay(4)
+
