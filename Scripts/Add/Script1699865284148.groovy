@@ -35,3 +35,5 @@ WebUI.setText(findTestObject('Add/textbox_Description'), 'Ini data Intan')
 
 WebUI.click(findTestObject('Add/button_Save'))
 
+WebUI.delay(4)
+
