@@ -19,21 +19,43 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Add/button_Time'))
 
+WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Add/button_Project'))
+
 WebUI.verifyElementClickable(findTestObject('Add/button_Project'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Add/button_Project'))
 
+WebUI.verifyElementClickable(findTestObject('Add/button_Customer'))
+
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Add/button_Customer'))
 
-WebUI.verifyElementPresent(findTestObject('Add/label_Customer'), 0)
+WebUI.verifyElementVisible(findTestObject('Add/label_Customer'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.takeScreenshot()
+
+WebUI.verifyElementVisible(findTestObject('Add/button_Add'))
+
+WebUI.verifyElementClickable(findTestObject('Add/button_Add'))
 
 WebUI.click(findTestObject('Add/button_Add'))
+
+WebUI.verifyElementVisible(findTestObject('Add/textbox_Name'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.verifyElementVisible(findTestObject('Add/textbox_Description'))
+
+WebUI.verifyElementVisible(findTestObject('Add/button_Save'))
+
+WebUI.verifyElementClickable(findTestObject('Add/button_Save'))
 
 WebUI.setText(findTestObject('Add/textbox_Name'), 'Intan Wulansari')
 
 WebUI.setText(findTestObject('Add/textbox_Description'), 'Ini data Intan')
 
-WebUI.click(findTestObject('Add/button_Save'))
+WebUI.takeScreenshot()
 
-WebUI.delay(4)
+WebUI.click(findTestObject('Add/button_Save'))
 
